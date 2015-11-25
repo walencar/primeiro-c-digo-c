@@ -1,32 +1,25 @@
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
+// Programa Vai ter Copa //
+ 
+#include<stdio.h>
+#include <stdlib.h>
+ 
+int main(){
+int a;
+ 
+ // Condição: Enquanto o valor digitado pelo úsuario for diferente de EOF, ele vair se repetir //
+  
+while((scanf("%d",&a))!=EOF){
+        if(a>0){
+                printf("vai ter duas!\n");
+        }
+         
+        else {
+                printf("vai ter copa!\n");
+        }
+}
+ 
+// Para encerrar o  programa digitar Ctrl-Z // 
+ 
+system ("pause");
+return 0;
+}
